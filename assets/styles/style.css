@@ -109,3 +109,13 @@ header {
         padding: 0;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    main {
+        flex-flow: column nowrap;
+    }
+
+    main aside {
+        align-self: center;
+    }
+}
